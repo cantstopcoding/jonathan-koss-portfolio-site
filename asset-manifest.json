@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/jonathan-koss-portfolio-site/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/jonathan-koss-portfolio-site/static/js/main.0ad6c191.chunk.js",
+    "main.js.map": "/jonathan-koss-portfolio-site/static/js/main.0ad6c191.chunk.js.map",
+    "runtime-main.js": "/jonathan-koss-portfolio-site/static/js/runtime-main.809e09d2.js",
+    "runtime-main.js.map": "/jonathan-koss-portfolio-site/static/js/runtime-main.809e09d2.js.map",
+    "static/js/2.c9faf35f.chunk.js": "/jonathan-koss-portfolio-site/static/js/2.c9faf35f.chunk.js",
+    "static/js/2.c9faf35f.chunk.js.map": "/jonathan-koss-portfolio-site/static/js/2.c9faf35f.chunk.js.map",
+    "static/js/3.54a696f1.chunk.js": "/jonathan-koss-portfolio-site/static/js/3.54a696f1.chunk.js",
+    "static/js/3.54a696f1.chunk.js.map": "/jonathan-koss-portfolio-site/static/js/3.54a696f1.chunk.js.map",
+    "index.html": "/jonathan-koss-portfolio-site/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/jonathan-koss-portfolio-site/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.c9faf35f.chunk.js.LICENSE.txt": "/jonathan-koss-portfolio-site/static/js/2.c9faf35f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.809e09d2.js",
+    "static/js/2.c9faf35f.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.0ad6c191.chunk.js"
+  ]
+}
