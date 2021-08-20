@@ -1,6 +1,7 @@
 {
   "name": "jonathan-koss-portfolio-site",
   "homepage": "https://cantstopcoding.github.io/jonathan-koss-portfolio-site",
+  "contact": "https://cantstopcoding.github.io/contact",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
