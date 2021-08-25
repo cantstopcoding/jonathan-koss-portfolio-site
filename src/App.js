@@ -6,6 +6,8 @@ import { BrowserRouter as Router } from "react-router-dom";
 // import { Contact } from "./pages/Contact";
 // import { NoMatch } from "./pages/NoMatch";
 import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Content from "./components/Content";
 
 class App extends Component {
   render() {
@@ -13,6 +15,8 @@ class App extends Component {
       <>
         <Router>
           <Navbar />
+          <Hero />
+          <Content />
           {/* <Switch>
             <Route exact path="/" component={Home} />
             <Route path="/about" component={About} />
