@@ -1,23 +1,30 @@
 import React, { Component } from "react";
+
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { Home } from "./Home";
-import { About } from "./About";
-import { Contact } from "./Contact";
-import { NoMatch } from "./NoMatch";
+import { Home } from "./pages/Home";
+// import { About } from "./pages/About";
+// import { Contact } from "./pages/Contact";
+// import { NoMatch } from "./pages/NoMatch";
+import Navbar from "./components/Navbar";
 
 class App extends Component {
   render() {
     return (
-      <React.Fragment>
+      <>
         <Router>
+          <Navbar />
           <Switch>
+            <Route path="/" exact component={Home} />
+          </Switch>
+
+          {/* <Switch>
             <Route exact path="/" component={Home} />
             <Route path="/about" component={About} />
             <Route path="/contact" component={Contact} />
             <Route component={NoMatch} />
-          </Switch>
+          </Switch> */}
         </Router>
-      </React.Fragment>
+      </>
     );
   }
 }
