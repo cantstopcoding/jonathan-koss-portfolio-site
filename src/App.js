@@ -1,13 +1,11 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router } from "react-router-dom";
-// import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-// import { Home } from "./pages/Home";
+
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { Home } from "./pages/Home";
 // import { About } from "./pages/About";
 // import { Contact } from "./pages/Contact";
 // import { NoMatch } from "./pages/NoMatch";
 import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import Content from "./components/Content";
 
 class App extends Component {
   render() {
@@ -15,8 +13,10 @@ class App extends Component {
       <>
         <Router>
           <Navbar />
-          <Hero />
-          <Content />
+          <Switch>
+            <Route path="/" exact component={Home} />
+          </Switch>
+
           {/* <Switch>
             <Route exact path="/" component={Home} />
             <Route path="/about" component={About} />
