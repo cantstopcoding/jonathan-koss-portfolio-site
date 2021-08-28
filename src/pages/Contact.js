@@ -1,8 +1,9 @@
 import React from "react";
 
-export const Contact = () => (
-  <div>
-    <h2>Jonathan Koss</h2>
-    <p>My Contact Page!</p>
+const Contact = () => (
+  <div className="h-screen flex justify-center items-center bg-blue-300">
+    <h1 className="text-9xl uppercase font-black">Contact</h1>
   </div>
 );
+
+export default Contact;
