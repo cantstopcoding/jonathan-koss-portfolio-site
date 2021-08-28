@@ -7,6 +7,7 @@ import Contact from "./pages/Contact";
 // import { Contact } from "./pages/Contact";
 // import { NoMatch } from "./pages/NoMatch";
 import Navbar from "./components/Navbar";
+import Dropdown from "./components/Dropdown";
 
 class App extends Component {
   render() {
@@ -14,6 +15,7 @@ class App extends Component {
       <>
         <Router>
           <Navbar />
+          <Dropdown />
           <Switch>
             <Route path="/" exact component={Home} />
             <Route path="/about" component={About} />
