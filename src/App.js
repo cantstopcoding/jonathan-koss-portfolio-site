@@ -1,5 +1,4 @@
-import React from "react";
-
+import React, { useState } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { Home } from "./pages/Home";
 import About from "./pages/About";
@@ -10,11 +9,17 @@ import Navbar from "./components/Navbar";
 import Dropdown from "./components/Dropdown";
 
 const App = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggle = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <>
       <Router>
-        <Navbar />
-        <Dropdown />
+        <Navbar toggle={toggle} />
+        <Dropdown isOpen={isOpen} toggle={toggle} />
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/about" component={About} />
