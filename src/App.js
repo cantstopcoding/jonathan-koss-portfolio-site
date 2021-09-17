@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { Home } from "./pages/Home";
 import About from "./pages/About";
@@ -14,6 +14,20 @@ const App = () => {
   const toggle = () => {
     setIsOpen(!isOpen);
   };
+
+  useEffect(() => {
+    const hideMenu = () => {
+      if (window.innerWidth > 768 && isOpen) {
+        setIsOpen(false);
+        console.log("I resized it!!!");
+      }
+    };
+    window.addEventListener("resize", hideMenu);
+
+    return () => {
+      window.addEventListener("resize2", hideMenu);
+    };
+  });
 
   return (
     <>
