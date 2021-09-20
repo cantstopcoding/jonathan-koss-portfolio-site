@@ -45,5 +45,18 @@
     "autoprefixer": "^9.8.6",
     "postcss": "^7.0.36",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.7"
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "craco.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cantstopcoding/jonathan-koss-portfolio-site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cantstopcoding/jonathan-koss-portfolio-site/issues"
+  },
+  "homepage": "https://github.com/cantstopcoding/jonathan-koss-portfolio-site#readme"
 }
